@@ -1,0 +1,81 @@
+<html>
+<head>
+    <title>Grab & Go BURGER</title>
+    <link rel="stylesheet" href=style.css>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="image/logo.jpeg" class="logo1">
+        </div>
+        <ul class="navigation">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="page2.html">MENU</a></li>
+            <li><a href="page3.html">TODAY'S DEAL</a></li>
+            <li><a href="page4.html">DELIVERY</a></li>
+            <li><a href="page5.html">CONTACT US</a></li>
+        </ul>
+    </header>
+    <div class="banner1">    
+        <div class="b-content1">
+            <h1>DELIVERY</h1>
+        </div>
+    </div>
+    
+    <div class="del-container">
+        <h1>Feel free to get in order</h1>
+        <div class="del-box">
+            <div class="del-boxleft">
+                <h3>If you want to order, just fill in the blank</h3>
+                <input type="text" class="fieldctc" placeholder="Name">
+				<input type="text" class="fieldctc" placeholder="Phone">
+				<textarea placeholder="Address" class="fieldctc"></textarea>
+                <textarea placeholder="Order code - Amount" class="fieldctc"></textarea>
+				<button class="btnctc">Send</button>
+            </div>
+            <div class="del-boxright">
+                <h3>Menu</h3>
+                <p>B001 | FISH & CHIP BURGER- RM10.00 </p>
+                <p>B002 | DOUBLE TROUBLE BURGER- RM15.00 </p>
+                <p>B003 | MELTED CHEESE DOUBLE TROUBLE BEEF COMBO- </p>
+                <p>B004 | MEATY MELTED CHEESE FRIES- RM8.00</p>
+                <p>B005 | DE'SMASH BURGER- RM14.00 </p>
+                <p>B006 | ROCKSTAR BURGER- RM20.00</p>
+                <p>B007 | ALOHA DELIGHT BURGER- RM17.00</p>
+                <p>B008 | BUTTER MUSHROOM BURGER- RM15.50</p>
+                <h3>Today's Deal</h3>
+                <p>TD001 |BEEF/CHICKEN OBLONG BURGER- RM7.00</p>
+                <p>TD002 |HASBROWN PATTY BURGER- RM8.00</p>
+                <p>TD003 |CHICK O' BYTE- RM7.50 </p>
+                <p>TD004 |HOTSTUFF BURGER- RM6.50 </p>
+                <p>TD005 |SATAYLICIOUS- RM14.90 PER COMBO</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer-content">
+            <h2>Grab & Go BURGER</h2>
+            <p>Email : grbandgo@gmail.com | Phone : 0123456789 <br> We are open Monday - Saturday at 8:00am to 8:00pm</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2021 Grab & Go BURGER. designed by <span>Group 10</span></p>
+        </div>
+    </footer>
+    
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+    </script>
+</body>
+</html>
